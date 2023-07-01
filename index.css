@@ -1,7 +1,7 @@
 .navbar-container{
     display: flex;
     flex-direction: column;
-    background-color: #91e0c6;
+    background-color: #5A8C76;
     padding: 20px 20px;
 }
 
@@ -11,9 +11,15 @@
     justify-content: space-between;
 }
 
-.navbar-cointainer-second-row{
+.logopag{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-cointainer-second-row{
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 1em;
 }
@@ -27,31 +33,19 @@
 }
 
 .navbar-button{
-    background-color: #91e0c6;
+    background-color: #8C554C;
     border-style: solid;
-    border-color: white;
+    border-color: #8C554C;
     border-radius: 10px;
     padding: 5px 5px;
-    color: white;
+    color: #D9A8A0;
+    transition: all 0.2s;
 }
 .navbar-button:hover {
-    background-color: white;
+    background-color:#D9A8A0;
     border-style: solid;
-    border-color: white;
-    color: #91e0c6;
-}
-
-.navbar-link{
-    color: white;
-    text-decoration: none;
-}
-
-.img-main-carrousel{
-    width: 40em;
-}
-
-.cointainer-banner{
-    align-items: center;
+    border-color:#D9A8A0 ;
+    color: #8C554C ;
 }
 
 @media (max-width: 375px) {
