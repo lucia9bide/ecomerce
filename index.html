@@ -5,25 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>E-commerce</title>
+    <title>ArtisticWorld</title>
 </head>
 <body style="background-color: #A1D9C0; color: #8C554C;">
-    <nav class="navbar-container">
-        <div class="navbar-cointainer-first-row">
-        <img src="https://icon-library.com/images/coloring-icon/coloring-icon-5.jpg" alt="Logo" width="50" height="44" class="logopag"/>
-        </div>
+  <nav class="navbar navbar-expand-lg" style="background-color: #5A8C76;">
+    <div class="container-fluid">
+      <img src="https://icon-library.com/images/coloring-icon/coloring-icon-5.jpg" alt="Logo" width="50" height="44" class="logopag"/>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="opciones" aria-current="page" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="opciones" href="pags/contact.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="opciones" href="#">Carrito</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="opciones" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Más
+            </a>
+            <ul style="background-color: #8C554C; color:#D9A8A0; " class="dropdown-menu">
+              <li><a style="background-color: #8C554C; color: #d9a8a0;" class="dropdown-item" href="#">Ofertas</a></li>
+              <li><a style="background-color: #8C554C; color: #D9A8A0;" class="dropdown-item" href="help/ayuda.html">Ayuda</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="opciones" href="pags/sesion.html">Inicia sesión</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+          <button class="boton-buscar" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-        <div class="navbar-cointainer-second-row">
-            <div class="action-buttons-subcontainer">
-                <button class="navbar-button">Productos</button>
-                <button class="navbar-button">Sucursales</button>
-                <button class="navbar-button">Contacto</button>
-                <button class="navbar-button">Carrito</button>
-                <button class="navbar-button">Inicia sesión</button>
-            </div>
-                
+  <nav class="navbar navbar-expand-lg" style="background-color:#A1D9C0;"></nav>
+
+  <div class="row">
+    <div class="col-md-6 col-sm-6">
+      <div class="card ml-5 text-center bg-transparent border-0 col-md-6" style= "width: 20rem;">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_966996-MLA44558190190_012021-O.webp" width="20" height="400px" class="card-img-top" alt="pinturas">
+        <div class="card-body cards ">
+          <h5 style="color: #8C554C;"  class="card-title text-uppercase">Pintura Oleo</h5>
+          <p style="color: #8C554C;" class="card-text">Caja de acrilicos oleo. <br> Tiene 12 colores bien vivos para darle vida a tu arte.</p>
+          <a style="background-color: #8C554C; border-color: #8C554C; color: #D9A8A0;" href="https://articulo.mercadolibre.com.ar/MLA-762660838-oleos-x-12-pomos-12-ml-bomeijia-tipo-reeves-colores-tubos-_JM#position=18&search_layout=stack&type=item&tracking_id=163b886f-d301-45fc-9cae-b5461612f92e" id="boton" class="btn">Ir a ML...</a>
+        </div> 
+      </div>
+    </div>
+    
+    <div class="col-md-6 col-sm-">
+      <div class="card ml-5 text-center bg-transparent border-0 d-flex col-md-6" style= "width: 20rem;">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_776782-MLA54973807329_042023-O.webp" class="card-img-top" width="20" height="400px" alt="cuaderno">
+        <div class="card-body cards ">
+          <h5 style="color: #8C554C;" class="card-title text-uppercase">Cuaderno de bocetos CANSOR</h5>
+          <p style="color: #8C554C;" class="card-text">Cuaderno ideal para plasmar toda tu imaginación en el.</p>
+          <a style="background-color: #8C554C; border-color: #8C554C; color: #D9A8A0;" href="https://articulo.mercadolibre.com.ar/MLA-1367614463-cuaderno-boceto-canson-art-book-one-100g-10x15-cm-98-hojas-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=60c3d8ac-70c1-4a01-966b-ee7e4b18e7f9&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MjhkMDc3OTAtOGNlOC00NjE2LWEwNzgtN2FhYTkxNjhkMzM3" id="boton" class="btn btn-secondary">Leer Mas...</a>
         </div>
-    </nav>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg" style="background-color:#A1D9C0;"></nav>
+
+    <div class="col-md-6 col-sm-">
+      <div class="card ml-5 text-center bg-transparent border-0 d-flex col-md-6" style= "width: 20rem;">
+        <img src="https://m.media-amazon.com/images/I/71FN7GUR+3L._AC_SX679_.jpg" class="card-img-top" width="20" height="400px" alt="lienzo">
+        <div class="card-body cards ">
+          <h5 style="color: #8C554C;" class="card-title text-uppercase">Lienzo SARGENT</h5>
+          <p style="color: #8C554C;" class="card-text">Panel de lona (7.9 x 9.8 in), 100% algodón.</p>
+          <a style="background-color: #8C554C; border-color: #8C554C; color: #D9A8A0;" href="https://www.amazon.com/-/es/Sargent-90-3001-Panel-plano-algod%C3%B3n/dp/B0027PA1A0/ref=sr_1_14?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1UTVUWA54V0G3&keywords=lienzos&qid=1688249842&sprefix=lienzos%2Caps%2C283&sr=8-14" id="boton" class="btn btn-secondary">Ir a Amazon...</a>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>

@@ -11,11 +11,6 @@
     justify-content: space-between;
 }
 
-.logopag{
-    display: flex;
-    flex-direction: row;
-}
-
 .navbar-cointainer-second-row{
     display: flex;
     flex-direction: row-reverse;
@@ -64,14 +59,12 @@
     transition: all 0.2s;
 }
 
-.card-body{
-    background-color: #D6FFED;
+.text-consulta{
+    display: flex;
+    float: inline-end;
 }
 
-
-@media (max-width: 375px) {
-    .action-buttons-subcontainer{
-        display: flex;
-        flex-direction: column;
-    }
+.num{
+    display: flex;
+    align-items: center;
 }

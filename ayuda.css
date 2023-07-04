@@ -44,7 +44,7 @@
     background-color:#D9A8A0;
     border-style: solid;
     border-color:#D9A8A0 ;
-    color: #8C554C ;
+    color: #8C554C;
 }
 
 .boton-buscar{
@@ -64,14 +64,13 @@
     transition: all 0.2s;
 }
 
-.card-body{
-    background-color: #D6FFED;
+.titulo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px;
 }
-
-
-@media (max-width: 375px) {
-    .action-buttons-subcontainer{
-        display: flex;
-        flex-direction: column;
-    }
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px;
 }
